@@ -1,13 +1,8 @@
 import pandas as pd
-import re
-import json
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import seaborn as sns
 import datetime as dt
-import os
-import numpy as np
-from textblob import TextBlob
 
 # Obtain df from cleaning.py file
 df = pd.read_csv('df.csv')
